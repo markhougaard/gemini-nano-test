@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         )}
       </div>
-      <div className="mt-[10rem] w-96 break-words text-center">
+      <div className="mt-[10rem] w-96 break-words text-left">
         {response && (
           <div>
             <p>{response}</p>

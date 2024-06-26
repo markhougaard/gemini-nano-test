@@ -31,3 +31,8 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) and start writing.
+
+## Credits
+
+- [chromeai](https://github.com/lightning-joyce/chromeai?tab=readme-ov-file) by @lightning-joyce
+- Morten Just on Threads: [https://www.threads.net/@mortenjust/post/C8m11QDNVY-?xmt](https://www.threads.net/@mortenjust/post/C8m11QDNVY-?xmt)
