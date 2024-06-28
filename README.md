@@ -8,7 +8,8 @@ To get this running you need to enable the experimental feature in Chrome Canary
 2. Set **Prompt API For Gemini Nano** to **"Enabled"**: `chrome://flags/#prompt-api-for-gemini-nano`
 3. Set **Enables optimization guide on device** to **Enabled BypassPerfRequirement**: `chrome://flags/#optimization-guide-on-device-model`
 4. Restart the browser
-5. Go to `chrome://components/`, find **"Optimization Guide On Device Model"** and ensure it's fully downloaded. The model should not be **"0.0.0.0"**. If it is, click **"Check for updates"**. If this doesn't show up, try disabling the flags, restart the browser, and try again
+5. Open a Console and write this: `await window.ai.createTextSession()` once to trigger Chrome to download the model
+6. Go to `chrome://components/`, find **"Optimization Guide On Device Model"** and ensure it's fully downloaded. The model should not be **"0.0.0.0"**. If it is, click **"Check for updates"**. If this doesn't show up, try disabling the flags, restart the browser, and try again
 
 ## Test it works
 
